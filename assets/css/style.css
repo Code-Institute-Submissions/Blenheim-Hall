@@ -1,3 +1,38 @@
-h1, h3 {
+body {
     font-family: 'Crimson Text', serif;
 }
+
+.heading {
+    margin-left: 10px;
+    text-transform: uppercase;
+    padding: 2px;
+    letter-spacing: 4px;
+    font-size: 24px; 
+     }
+
+.heading a {
+    text-decoration: none;
+    color: #eed3b7;
+}
+
+.navbar {
+    float: right;
+    line-height: 0px;
+}
+
+.list-inline-item {
+    padding: 2px;
+    margin-right: 40px;
+}
+
+.nav-item a {
+    color: #eed3b7;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+
+
+
+
+    
