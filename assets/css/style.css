@@ -36,10 +36,11 @@ body {
     padding: 5px;
 }
 
-.himage {
-    background: url("../images/heading1.jpg") no-repeat;
-    height: 500px;
-    width: 100%;
+.h-image {
+    background: url(https://b2fc6649-d72a-429c-a420-1bcdca273929.ws-eu01.gitpod.io/files/download/?id=6c175bd7-9d32-42c7-923c-7c718f9ddf67) no-repeat;
+    height: 600px;
+    width: 100vw;
+    
     
 }
 
