@@ -2,42 +2,39 @@ body {
     font-family: 'Crimson Text', serif;
 }
 
-.heading {
+#heading {
+    float: left;
     margin-left: 10px;
-    text-transform: uppercase;
-    padding: 2px;
-    letter-spacing: 4px;
-    font-size: 24px; 
-    display: inline-block;
-     }
-
-     
-.heading a {
-    text-decoration: none;
     color: #eed3b7;
+    letter-spacing: 4px;
+    font-size: 30px;
+    
 }
-
 .navbar {
     float: right;
-    line-height: 0px;
-    border: 2px solid #eed3b7;
     margin-right: 20px;
+    margin-top: 0px;
 }
 
 .list-inline-item {
     padding: 2px;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 .nav-item a {
     color: #eed3b7;
-    font-size: 110%;
+    font-size: 120%;
     font-weight: bold;
     padding: 5px;
+    text-transform: uppercase;
 }
 
-.h-image {
-    background: url(https://b2fc6649-d72a-429c-a420-1bcdca273929.ws-eu01.gitpod.io/files/download/?id=6c175bd7-9d32-42c7-923c-7c718f9ddf67) no-repeat;
+.active {
+    text-decoration: underline;
+}
+
+#h-image {
+    background: url(https://f2d71976-9271-477a-9a8c-a91530760e00.ws-eu01.gitpod.io/files/download/?id=f7969486-7efc-4e30-a889-abe7b6315e88);
     height: 600px;
     width: 100vw;
     
