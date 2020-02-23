@@ -39,11 +39,50 @@ body {
 }
 
 #h-image {
-    background: url(https://images.unsplash.com/photo-1568891806972-a5c2a08940bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat bottom left fixed;
+    background: url(https://images.unsplash.com/photo-1568891806972-a5c2a08940bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center;
     height: 100vh;
     width: 120%;
     background-size: cover;
     margin-top: -40px;
+    margin-left: -120px;
+}
+
+/*------------------------------About us section---------------------------*/
+
+.about-us-container {
+ background-color: #eed3b7;
+ height: 240px;
+}
+
+.about-us {
+
+}
+
+#about-us-image1 {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    position: center;
+}
+
+#about-us-image2 {
+    width: 500px;
+    height: 300px;
+}
+
+.quote-section {
+    text-align: centre;
+    margin-top: 25px;
+}
+
+#quote {
+    font-size: 150%;
+    width: 50%;
+    text-align: justify;
+}
+
+#quote-from {
+    font-weight: bold;
 }
 
 /*------------------------------Footer---------------------------*/
