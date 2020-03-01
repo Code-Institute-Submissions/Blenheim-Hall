@@ -167,8 +167,14 @@ body {
     margin: 0 auto;
 }
 
+.food-image {
+    padding: 20px;
+    height: 400px;
+    width: 600px;
+}
+
 .about-food h2 {
-    margin-top: 10px;
+    margin-top: 20px;
     font-style: bold;
 }
 
@@ -181,6 +187,12 @@ body {
 .food-description p {
     margin-top: 10px;
     font-size: 110%;
+}
+
+.menus img {
+    width: 250px;
+    height: 200px;
+    border: 2px solid #282930;
 }
 
 /*------------------------------Footer---------------------------*/
