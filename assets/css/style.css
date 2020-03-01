@@ -146,6 +146,43 @@ body {
     
 }
 
+/*------------------------------Food Page---------------------------*/
+
+#h-image-food {
+    display: block;
+    background: url(https://images.unsplash.com/photo-1562050344-f7ad946cee35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center;
+    height: 600px;
+    width: 100%;    
+    background-size: cover;    
+    display: flex;
+}
+
+.food-background {
+   background-color: #eed3b7; 
+}
+
+.about-food {
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-food h2 {
+    margin-top: 10px;
+    font-style: bold;
+}
+
+.food-description {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto; 
+}
+
+.food-description p {
+    margin-top: 10px;
+    font-size: 110%;
+}
+
 /*------------------------------Footer---------------------------*/
 
 footer {
