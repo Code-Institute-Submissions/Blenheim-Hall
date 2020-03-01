@@ -165,12 +165,17 @@ body {
     padding-bottom: 0px;
     text-align: center;
     margin: 0 auto;
+    
+}
+
+.about-food-container {
+    margin: 0 auto;
 }
 
 .food-image {
     padding: 20px;
     height: 400px;
-    width: 600px;
+    width: 600px;    
 }
 
 .about-food h2 {
@@ -189,10 +194,30 @@ body {
     font-size: 110%;
 }
 
-.menus img {
+.menus {
+    margin: 0 auto;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.menu-card img {
     width: 250px;
     height: 200px;
-    border: 2px solid #282930;
+    border: 2px solid #282930;    
+}
+
+.menu-card {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;    
+}
+
+.menu-card h4 {
+    color: #282930;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 /*------------------------------Footer---------------------------*/
