@@ -219,6 +219,20 @@ body {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+/*------------------------------Enquiry---------------------------*/
+
+#h-image-enquire {
+    display: block;
+    background: url(https://images.unsplash.com/photo-1565034582189-195bb0084dcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center;
+    height: 600px;
+    width: 100%;    
+    background-size: cover;    
+    display: flex;
+}
+
+.contact-us {
+    width: 80vw;
+}
 
 /*------------------------------Footer---------------------------*/
 
