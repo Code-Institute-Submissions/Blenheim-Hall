@@ -230,8 +230,46 @@ body {
     display: flex;
 }
 
-.contact-us {
+.enquire-section {
+    background-color: #eed3b7;
+}
+
+.about-enquire {
     width: 80vw;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.about-enquire h2 {
+    text-align: center;
+    font-style: bold;
+    margin-top: 20px;
+}
+
+.about-enquire p {
+    margin-top: 10px;
+    font-size: 110%;
+}
+
+.contact-us {
+    background-color: #7f6a55;
+    margin-top: 20px;
+    text-align: center;    
+}
+
+.contact-details {
+    padding: 25px;
+}
+
+.contact-us h3 {
+    color:#bda58d;
+    line-height: 40px;
+}
+
+.contact-us h4 {
+    color:#f0efed;
+    font-style: bold;
+    line-height: 40px;
 }
 
 /*------------------------------Footer---------------------------*/
