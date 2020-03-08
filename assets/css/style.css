@@ -272,6 +272,28 @@ body {
     line-height: 40px;
 }
 
+.enquiry-form {
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.enquiry-form input, textarea {
+    width: 600px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+button:hover {
+    border: 2px solid #282930;
+}
+
+
+
+
 /*------------------------------Footer---------------------------*/
 
 footer {
