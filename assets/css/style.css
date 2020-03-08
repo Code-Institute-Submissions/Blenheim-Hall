@@ -59,12 +59,14 @@ body {
 .about-section {
     text-align: justify;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 60px;
     padding-bottom: 20px;
 }
 
 .image-container {   
     display: block;
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
 #about-us-image1 {     
@@ -73,32 +75,42 @@ body {
     padding: 20px;
     margin-left: auto;
     margin-right: auto; 
-    position: relative;    
+    position: relative; 
+}
+
+.quote-section {
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 30px;
 }
 
 #about-us-image2 {
     width: 600px;
     height: 400px;
-    margin-left: 50px;
-    padding-bottom: 30px;
     text-align: center;
     position: relative;
+    
 }
 
-.quote-section {
-    margin-top: 25px;
+
+
+.quote-col {
+    margin: 0 auto;
 }
 
 #quote {
-    font-size: 180%;
+    font-size: 200%;
     color: #282930;
     font-style: italic;
-    width: 40%;
-    text-align: justify;    
+    width: 50%;
+    text-align: justify;
+    margin-top: 30px;  
+    margin-left: 60px;    
 }
 
 #quote-from {
     font-weight: bold;
+    margin-left: 60px;
 }
 
 /*------------------------------Rooms Page---------------------------*/
@@ -117,20 +129,24 @@ body {
     background-color: #eed3b7;
 }
 
+.rooms-section {
+    padding-top: 30px;
+}
+
 .rooms {    
-    padding-bottom: 0px;
+    padding-bottom: 30px;
     text-align: center;
     margin: 0 auto;
 }
 
 .bedroom {
-    padding: 20px;
+    padding: 30px;
     height: 400px;
     width: 600px;
 }
 
 .rooms h2 {
-    margin-top: 10%;
+    margin-top: 8%;
     font-style: bold;
 }
 
