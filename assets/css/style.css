@@ -291,6 +291,23 @@ button:hover {
     border: 2px solid #282930;
 }
 
+/*------------------------------Gallery---------------------------*/
+
+.photos-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.photos-col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+
+
+
 
 
 
