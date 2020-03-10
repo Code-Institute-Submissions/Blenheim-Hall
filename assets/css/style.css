@@ -180,8 +180,7 @@ body {
 .about-food {
     padding-bottom: 0px;
     text-align: center;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 .about-food-container {
@@ -190,12 +189,13 @@ body {
 
 .food-image {
     padding: 20px;
+    margin-top: 30px;
     height: 400px;
     width: 600px;    
 }
 
 .about-food h2 {
-    margin-top: 20px;
+    margin-top: 30px;
     font-style: bold;
 }
 
@@ -203,6 +203,7 @@ body {
     width: 80%;
     text-align: justify;
     margin: 0 auto; 
+    padding-bottom: 20px;
 }
 
 .food-description p {
@@ -219,14 +220,14 @@ body {
 .menu-card img {
     width: 250px;
     height: 200px;
-    border: 2px solid #282930;    
+    border: 2px solid #282930; 
 }
 
 .menu-card {
     text-align: center;
     display: inline-block;
     margin: 0 auto;
-    padding: 10px;    
+    padding: 10px;   
 }
 
 .menu-card h4 {
@@ -259,11 +260,11 @@ body {
 .about-enquire h2 {
     text-align: center;
     font-style: bold;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .about-enquire p {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 110%;
 }
 
