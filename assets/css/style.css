@@ -9,7 +9,7 @@ body {
 
 #h-image {
     display: block;
-    background: url(https://images.unsplash.com/photo-1568891806972-a5c2a08940bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center;
+    background: url("../../images/index-header.jpg") no-repeat center;
     height: 600px;
     width: 100%;    
     background-size: cover;    
@@ -25,7 +25,7 @@ body {
     font-weight: bold; 
     text-transform: uppercase;
     text-decoration: none;
-    text-shadow: 2px 2px 0px #777;  
+    text-shadow: 2px 2px 0px #ccc;  
 }
 
 .list-inline-item {
@@ -351,9 +351,16 @@ footer {
     padding-bottom: 15px;
 }
 
+/*------------------------------Media Queries---------------------------*/
 
-
-
+@media (max-width: 575.98px) {
+    #heading {
+        float: none;
+        letter-spacing: 3px;
+        font-size: 24px;
+    }
+}
+    
 
 
 
