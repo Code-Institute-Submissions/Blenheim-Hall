@@ -80,11 +80,8 @@ body {
     width: 600px;
     height: 400px;
     text-align: center;
-    position: relative;
-    
+    position: relative; 
 }
-
-
 
 .quote-col {
     margin: 0 auto;
@@ -109,7 +106,7 @@ body {
 
 #h-image-rooms {
     display: block;
-    background: url(https://images.unsplash.com/photo-1445991842772-097fea258e7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center;
+    background: url(../../images/pillows.jpg) no-repeat center;
     height: 600px;
     width: 100%;    
     background-size: cover;    
@@ -158,7 +155,7 @@ body {
 
 #h-image-food {
     display: block;
-    background: url(https://images.unsplash.com/photo-1562050344-f7ad946cee35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center;
+    background: url(../../images/food-header.jpg) no-repeat center;
     height: 600px;
     width: 100%;    
     background-size: cover;    
@@ -236,7 +233,7 @@ body {
 
 #h-image-enquire {
     display: block;
-    background: url(https://images.unsplash.com/photo-1565034582189-195bb0084dcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center;
+    background: url(../../images/rings.jpg) no-repeat center;
     height: 600px;
     width: 100%;    
     background-size: cover;    
@@ -356,9 +353,99 @@ footer {
 @media (max-width: 575.98px) {
     #heading {
         float: none;
-        letter-spacing: 3px;
-        font-size: 24px;
+        letter-spacing: 2px;
+        font-size: 16px;
+        clear: right;
     }
+    .list-inline-item {
+    margin-left: 0px;
+    margin-top: 10px;        
+    }
+    .nav-item a {    
+        font-size: 8px;
+    }
+    #h-image {
+        max-height: 300px;
+        width: 190px;    
+    }
+    .about-section {
+        margin-top: 20px;
+        margin-left: 15px;
+        max-width: 190px;
+        padding-bottom: 0px;    
+    }
+    .about-section h2 {
+        font-size: 16px;
+        font-style: bold;
+        text-align: center; 
+    }
+    .about-section p {
+        font-size: 10px;
+    
+    }
+    .image-container {   
+        margin-left: 0px;
+        display: block;
+    }
+    #about-us-image1 {     
+        width: 180px;
+        height: 150px;
+    }
+    .quote-section {
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-bottom: 10px;
+    }
+    #quote {
+        font-size: 10px;
+        width: 40%;
+        text-align: justify;
+        margin-top: 0px;  
+        margin-left: 0px;  
+    }
+    #quote-from {
+        font-weight: bold;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    footer {
+        font-size: 10px;
+    }
+    .address {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+   .winner i {
+        margin-top: 5px;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    .winner-text {
+        padding-top: 0px;
+        font-size: 16px;
+    }
+
+    .winner h5 {
+        margin-left: 0px;
+        font-size: 12px;    
+    }
+    .footer-links {
+       padding-inline-start: 0px;
+    }
+    .footer-links li a i {
+        padding-right: 0px;
+        padding-top: 5px;
+        font-size: 20px; 
+    }
+    .copyright{
+        max-width: 190px;
+    }
+    .copyright p {
+        margin-left: 0px;
+        font-size: 8px;
+        padding-top: 5px;
+        padding-bottom: 15px;        
+    } 
 }
     
 
