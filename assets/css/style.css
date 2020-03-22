@@ -70,6 +70,15 @@ body {
     padding-bottom: 40px;
 }
 
+.quotes-image img{
+    width: 300px;
+    height: 250px;
+}
+
+.block-divider {
+    border-top: solid 2px #282930;
+}
+
 
 /*------------------------------Rooms Page---------------------------*/
 
@@ -326,96 +335,7 @@ footer {
         font-size: 24px;
         clear: right;
     }
-    .list-inline-item {
-        margin-left: 0px;
-        margin-top: 10px;        
-    }
-    .nav-item a {    
-        font-size: 14px;
-    }
-    #h-image {
-        max-height: 300px;
-        width: 100vw;    
-    }
-    .about-section {
-        margin-top: 20px;
-        margin-left: 0px;        
-        padding-bottom: 0px;    
-    }
-    .about-section h2 {
-        font-size: 18px;
-        font-style: bold;
-        text-align: center; 
-    }
-    .about-section p {
-        font-size: 14px;
-    }
-    .image-container {   
-        margin-left: 20px;
-        margin-top: 0px;
-        
-    }
-    #about-us-image1 {     
-        width: 535px;
-        height: 400px;
-    }
-    .quote-col {
-        text-align: center;
-    }
-    .quote-section {
-        margin-top: 10px;
-        margin-left: 0px;
-        padding-bottom: 10px;
-    }
-    #quote {
-        font-size: 16px;        
-        text-align: justify;
-        margin-top: 0px;  
-        margin-left: 0px; 
-        
-    }
-    #quote-from {
-        font-weight: bold;
-        margin-left: 0px;
-        font-size: 16px;
-    }
-    footer {
-        font-size: 16px;
-    }
-    .address {
-        margin-left: 0px;
-        margin-top: 16px;
-    }
-   .winner i {
-        margin-top: 5px;
-        margin-left: 0px;
-        font-size: 50px;
-    }
-    .winner-text {
-        padding-top: 0px;
-        font-size: 20px;
-    }
-    .winner h5 {
-        margin-left: 0px;
-        font-size: 18px;    
-    }
-    .footer-links {
-       padding-inline-start: 0px;
-    }
-    .footer-links li a i {
-        padding-right: 0px;
-        padding-top: 5px;
-        font-size: 26px; 
-    }
-    .copyright{
-        max-width: 190px;
-    }
-    .copyright p {
-        margin-left: 0px;
-        font-size: 12px;
-        padding-top: 5px;
-        padding-bottom: 15px;        
-    } 
+    
 }
     
 
