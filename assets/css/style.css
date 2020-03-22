@@ -43,64 +43,35 @@ body {
 
 /*------------------------------About us section---------------------------*/
 
-.about {
+.about-section {
  background-color: #eed3b7;
  color: #282930;
  }
 
-.about-section {
+.about {
     text-align: justify;
-    margin-top: 30px;
-    margin-left: 60px;
+    margin-top: 20px;    
     padding-bottom: 20px;
 }
 
-.image-container {   
-    display: block;
-    margin-top: 30px;
-    margin-left: 40px;
+.about-us-image1 {     
+    background: url("../../images/kissing.jpg") no-repeat center; 
+    margin-top: 20px;
+    display: flex;
 }
+.about-us-image2 {
+    background: url("../../images/kissing2.jpg") no-repeat center; 
+    margin-top: 20px;
+    display: flex;
+    }
 
-#about-us-image1 {     
-    width: 600px;
-    height: 400px;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto; 
-    position: relative; 
-}
-
-.quote-section {
-    margin-top: 30px;
-    margin-left: 50px;
-    padding-bottom: 30px;
-}
-
-#about-us-image2 {
-    width: 600px;
-    height: 400px;
+.container-quotes {
+    padding-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
-    position: relative; 
 }
 
-.quote-col {
-    margin: 0 auto;
-}
 
-#quote {
-    font-size: 200%;
-    color: #282930;
-    font-style: italic;
-    width: 50%;
-    text-align: justify;
-    margin-top: 30px;  
-    margin-left: 60px;    
-}
-
-#quote-from {
-    font-weight: bold;
-    margin-left: 60px;
-}
 
 /*------------------------------Rooms Page---------------------------*/
 
@@ -354,42 +325,44 @@ footer {
     #heading {
         float: none;
         letter-spacing: 2px;
-        font-size: 16px;
+        font-size: 24px;
         clear: right;
     }
     .list-inline-item {
-    margin-left: 0px;
-    margin-top: 10px;        
+        margin-left: 0px;
+        margin-top: 10px;        
     }
     .nav-item a {    
-        font-size: 8px;
+        font-size: 14px;
     }
     #h-image {
         max-height: 300px;
-        width: 190px;    
+        width: 100vw;    
     }
     .about-section {
         margin-top: 20px;
-        margin-left: 15px;
-        max-width: 190px;
+        margin-left: 0px;        
         padding-bottom: 0px;    
     }
     .about-section h2 {
-        font-size: 16px;
+        font-size: 18px;
         font-style: bold;
         text-align: center; 
     }
     .about-section p {
-        font-size: 10px;
-    
+        font-size: 14px;
     }
     .image-container {   
-        margin-left: 0px;
-        display: block;
+        margin-left: 20px;
+        margin-top: 0px;
+        
     }
     #about-us-image1 {     
-        width: 180px;
-        height: 150px;
+        width: 535px;
+        height: 400px;
+    }
+    .quote-col {
+        text-align: center;
     }
     .quote-section {
         margin-top: 10px;
@@ -397,37 +370,36 @@ footer {
         padding-bottom: 10px;
     }
     #quote {
-        font-size: 10px;
-        width: 40%;
+        font-size: 16px;        
         text-align: justify;
         margin-top: 0px;  
-        margin-left: 0px;  
+        margin-left: 0px; 
+        
     }
     #quote-from {
         font-weight: bold;
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 16px;
     }
     footer {
-        font-size: 10px;
+        font-size: 16px;
     }
     .address {
         margin-left: 0px;
-        margin-top: 10px;
+        margin-top: 16px;
     }
    .winner i {
         margin-top: 5px;
         margin-left: 0px;
-        font-size: 30px;
+        font-size: 50px;
     }
     .winner-text {
         padding-top: 0px;
-        font-size: 16px;
+        font-size: 20px;
     }
-
     .winner h5 {
         margin-left: 0px;
-        font-size: 12px;    
+        font-size: 18px;    
     }
     .footer-links {
        padding-inline-start: 0px;
@@ -435,14 +407,14 @@ footer {
     .footer-links li a i {
         padding-right: 0px;
         padding-top: 5px;
-        font-size: 20px; 
+        font-size: 26px; 
     }
     .copyright{
         max-width: 190px;
     }
     .copyright p {
         margin-left: 0px;
-        font-size: 8px;
+        font-size: 12px;
         padding-top: 5px;
         padding-bottom: 15px;        
     } 
