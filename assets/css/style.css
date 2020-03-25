@@ -50,7 +50,7 @@ body {
 
 .about {
     text-align: justify;
-    margin-top: 20px;    
+    margin-top: 30px;    
     padding-bottom: 20px;
 }
 
@@ -79,6 +79,17 @@ body {
     border-top: solid 2px #282930;
 }
 
+.quotes-section {
+    padding-bottom: 30px;
+}
+
+.quote-from {
+    font-weight: bold;
+}
+
+.quote {
+    font-style: italic;
+}
 
 /*------------------------------Rooms Page---------------------------*/
 
@@ -91,12 +102,11 @@ body {
     display: flex;
 }
 
-
 .rooms-background {
     background-color: #eed3b7;
 }
 
-.rooms-section {
+.rooms-container {
     padding-top: 30px;
 }
 
@@ -109,25 +119,24 @@ body {
 .bedroom {
     padding: 30px;
     height: 400px;
-    width: 600px;
+    width: 525px;
 }
 
-.rooms h2 {
-    margin-top: 8%;
-    font-style: bold;
+.rooms-text {
+    margin-top: 40px;  
+    text-align: center; 
+}
+
+.rooms-text h2 {
+    padding-bottom: 20px; 
 }
 
 .room-description {
-    width: 600px;
     text-align: justify;
     margin: 0 auto; 
+    font-size: 18px;
 }
 
-.room-description p{
-    margin-top: 10px;
-    font-size: 130%;
-    
-}
 
 /*------------------------------Food Page---------------------------*/
 
@@ -144,21 +153,15 @@ body {
    background-color: #eed3b7; 
 }
 
-.about-food {
-    padding-bottom: 0px;
-    text-align: center;
-    margin: 0 auto;    
-}
-
 .about-food-container {
-    margin: 0 auto;
+    padding-top: 30px;
 }
 
 .food-image {
     padding: 20px;
     margin-top: 30px;
     height: 400px;
-    width: 600px;   
+    width: 525px;   
      
 }
 
