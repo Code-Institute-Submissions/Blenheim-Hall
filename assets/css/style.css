@@ -28,6 +28,11 @@ body {
     text-shadow: 2px 2px 0px #ccc;  
 }
 
+.nav-container {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
 .list-inline-item {
     margin-left: 20px;
     margin-top: 15px;    
@@ -50,29 +55,40 @@ body {
 
 .about {
     text-align: justify;
-    margin-top: 30px;    
     padding-bottom: 20px;
 }
 
-.about-us-image1 {     
-    background: url("../../images/kissing.jpg") no-repeat center; 
-    margin-top: 20px;
-    display: flex;
+.about-container {
+    padding-top: 50px;
+}
+
+.about h2 {
+   padding-bottom: 20px; 
+}
+
+.about p {
+    font-size: 16px;
+}
+
+.about-us-image1 img {     
+    padding: 40px;
+    max-height: 400px;
+    max-width: 525px; 
 }
 
 .container-quotes {
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 40px;
     text-align: center;
 }
 
 .quote-header {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .quotes-image img{
-    width: 300px;
-    height: 250px;
+    max-width: 300px;
+    max-height: 250px;
 }
 
 .block-divider {
@@ -80,7 +96,7 @@ body {
 }
 
 .quotes-section {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .quote-from {
@@ -118,8 +134,8 @@ body {
 
 .bedroom {
     padding: 30px;
-    height: 400px;
-    width: 525px;
+    max-height: 400px;
+    max-width: 525px;
 }
 
 .rooms-text {
@@ -134,7 +150,11 @@ body {
 .room-description {
     text-align: justify;
     margin: 0 auto; 
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.bottom-container {
+    padding-bottom: 10px;
 }
 
 
@@ -158,34 +178,35 @@ body {
 }
 
 .food-image {
-    padding: 20px;
-    margin-top: 30px;
-    height: 400px;
-    width: 525px;   
-     
+    padding: 30px;
+    max-height: 400px;
+    max-width: 525px;        
+}
+
+.about-food {
+    margin-top: 20px;  
+    text-align: center; 
 }
 
 .about-food h2 {
-    margin-top: 30px;
-    font-style: bold;
+    padding-bottom: 20px; 
 }
 
 .food-description {
-    width: 80%;
     text-align: justify;
     margin: 0 auto; 
     padding-bottom: 20px;
 }
 
 .food-description p {
-    margin-top: 10px;
-    font-size: 110%;
+   font-size: 16px;
 }
 
 .menus {
     margin: 0 auto;
     padding-left: 10px;
     text-decoration: none;
+    padding-top: 50px;
 }
 
 .menu-card img {
@@ -208,7 +229,7 @@ body {
     color: #282930;
     text-decoration: none;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 /*------------------------------Enquiry---------------------------*/
 
@@ -226,7 +247,6 @@ body {
 }
 
 .about-enquire {
-    width: 80vw;
     text-align: justify;
     margin: 0 auto;
 }
@@ -234,17 +254,16 @@ body {
 .about-enquire h2 {
     text-align: center;
     font-style: bold;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .about-enquire p {
     margin-top: 20px;
-    font-size: 110%;
 }
 
 .contact-us {
     background-color: #7f6a55;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;    
 }
 
@@ -264,7 +283,7 @@ body {
 }
 
 .enquiry-form {
-    padding-top: 40px;
+    padding-top: 50px;
     margin: 0 auto;
     max-width: 60%;
 }
@@ -276,7 +295,7 @@ body {
 
 button {
     margin-top: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 50px;    
 }
 
 button:hover {
@@ -297,11 +316,11 @@ footer {
 
 .address {
     margin-left: 30px;
-    margin-top: 12px;
+    margin-top: 30px;
 }
 
 .winner i {
-    margin-top: 12px;
+    margin-top: 30px;
     margin-left: 30px;
     font-size: 50px;
 }
