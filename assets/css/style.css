@@ -29,14 +29,9 @@ body {
 }
 
 .nav-container {
-    margin-left: 30px;
     margin-top: 15px;
 }
 
-.list-inline-item {
-    margin-left: 20px;
-    margin-top: 15px;    
-}
 
 .nav-item a {    
     color: #aa9a8a;
@@ -73,7 +68,7 @@ body {
 .about-us-image1 img {     
     padding: 40px;
     max-height: 400px;
-    max-width: 525px; 
+    max-width: 500px; 
 }
 
 .container-quotes {
@@ -376,18 +371,41 @@ footer {
 
 /*------------------------------Media Queries---------------------------*/
 
-@media (max-width: 575.98px) {
-    #heading {
-        float: none;
-        letter-spacing: 2px;
-        font-size: 24px;
-        clear: right;
+ @media (max-width: 991.98px) {
+     #heading {
+         text-align: center;
+     }
+   .about-us-image1 img {  
+        max-height: 425px;
+        max-width: 550px;
     }
-    
+   .about-us-image1 {
+       text-align: center;
+   }
+   .quotes-image img {  
+        max-height: 425px;
+        max-width: 550px;
+    }
+   .quotes-image {
+       text-align: center;
+       padding-bottom: 30px;
+   }
+   .quotes-text{
+       text-align: center;
+   }
+   
+   
+   
+   
+   .footer-links li a i {
+    padding-right: 0px;
+    } 
+}   
+
+@media (max-width: 1076px) {
+   .footer-links li a i {
+    padding-right: 0px;
 }
-    
-
-
 
 
 
