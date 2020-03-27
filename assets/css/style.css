@@ -20,25 +20,29 @@ body {
 #heading {
     float: left;    
     color: #282930;
-    letter-spacing: 6px;
+    letter-spacing: 8px;
     font-size: 36px;
     font-weight: bold; 
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: 2px 2px 0px #ccc;  
+    padding-left: 5px;
 }
 
 .nav-container {
     margin-top: 15px;
 }
 
+.navbar {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    }
 
 .nav-item a {    
     color: #aa9a8a;
     font-weight: bold;
-    padding: 3px;
-    text-transform: uppercase;
-    
+    padding: 5px;
+    text-transform: uppercase;   
 }
 
 /*------------------------------About us section---------------------------*/
@@ -371,6 +375,11 @@ footer {
 
 /*------------------------------Media Queries---------------------------*/
 
+@media (max-width: 1076px) {
+   .footer-links li a i {
+    padding-right: 0px;
+}
+
  @media (max-width: 991.98px) {
      #heading {
          text-align: center;
@@ -392,20 +401,36 @@ footer {
    }
    .quotes-text{
        text-align: center;
-   }
-   
-   
-   
-   
+   } 
    .footer-links li a i {
-    padding-right: 0px;
+        padding-right: 0px;
     } 
-}   
+} 
 
-@media (max-width: 1076px) {
-   .footer-links li a i {
-    padding-right: 0px;
+@media (max-width: 767.98px) {
+
 }
+
+@media (max-width: 575.98px) {
+    #heading {
+        padding-left: 40px;
+    }
+    .navbar {
+        padding-left: 35px;
+    }
+    .about-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .about-us-image1 img {     
+    
+    max-height: 450px;
+    max-width: 525px; 
+}
+
+}
+
+
 
 
 
