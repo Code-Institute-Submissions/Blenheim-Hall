@@ -176,7 +176,7 @@ body {
     padding-top: 30px;
 }
 
-.food-image {
+.food-image img {
     padding: 30px;
     max-height: 400px;
     max-width: 500px;        
@@ -199,21 +199,20 @@ body {
 
 .menus {
     margin: 0 auto;
-    padding-left: 10px;
     text-decoration: none;
     padding-top: 50px;
 }
 
 .menu-card img {
-    width: 250px;
-    height: 200px;
+    max-height: 200px;
+    max-width: 250px;
+    
 }
 
 .menu-card {
     text-align: center;
     display: inline-block;
-    margin: 0 auto;
-    padding: 10px;   
+    margin: 0 auto;   
 }
 
 .menu-card a {
@@ -375,9 +374,21 @@ footer {
 
 /*------------------------------Media Queries---------------------------*/
 
-@media (max-width: 1076px) {
+@media (max-width: 1075.98px) {
    .footer-links li a i {
-    padding-right: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .bedroom {
+        padding: 30px;
+        max-height: 400px;
+        max-width: 500px;
+    }
+    .rooms-text {
+        padding-left: 30px; 
+    }
 }
 
  @media (max-width: 991.98px) {
@@ -385,15 +396,16 @@ footer {
          text-align: center;
      }
    .about-us-image1 img {  
-        max-height: 425px;
-        max-width: 550px;
+        max-height: 400px;
+        max-width: 500px;
     }
    .about-us-image1 {
        text-align: center;
    }
    .quotes-image img {  
-        max-height: 425px;
-        max-width: 550px;
+       padding: 30px;
+        max-height: 400px;
+        max-width: 500px;
     }
    .quotes-image {
        text-align: center;
@@ -405,6 +417,23 @@ footer {
    .footer-links li a i {
         padding-right: 0px;
     } 
+    .rooms-text {
+        margin-top: 0px;   
+        padding-bottom: 20px;
+    }
+    .food-image {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menu-card {
+       max-height: 300px;
+       max-width: 350px;
+    }
+    .menu-card {
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;   
+    }
 } 
 
 @media (max-width: 767.98px) {
@@ -422,12 +451,31 @@ footer {
         padding-left: 40px;
         padding-right: 40px;
     }
-    .about-us-image1 img {     
-    
-    max-height: 450px;
-    max-width: 525px; 
+    .about{
+        padding-bottom: 0px;
+    }
+    .about-us-image1 img {  
+        padding: 40px;
+        max-height: 375px;
+        max-width: 475px;
 }
-
+.quotes-image img {  
+        padding: 40px;
+        max-height: 375px;
+        max-width: 475px;
+    }
+    .quote-header {
+        padding-bottom: 0px;
+}
+.rooms-text {
+    padding-left: 40px;
+    padding-right: 40px; 
+    }
+.bedroom {
+        padding: 40px;
+        max-height: 375px;
+        max-width: 475px;
+    }
 }
 
 
