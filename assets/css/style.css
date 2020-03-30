@@ -240,19 +240,15 @@ body {
     background-color: #eed3b7;
 }
 
-.about-enquire {
+.about-enquire p {
     text-align: justify;
-    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .about-enquire h2 {
     text-align: center;
     font-style: bold;
     margin-top: 50px;
-}
-
-.about-enquire p {
-    margin-top: 20px;
 }
 
 .contact-us {
@@ -278,14 +274,15 @@ body {
 
 .enquiry-form {
     padding-top: 50px;
-    margin: 0 auto;
-    max-width: 60%;
+    text-align: center;
+    
 }
 
 .enquiry-form input, textarea {
     width: 600px;
     margin-bottom: 10px;
 }
+
 
 button {
     margin-top: 20px;
@@ -322,8 +319,7 @@ button:hover {
 }
 
 .slideshow img {
-    max-height: 600px;
-    
+    max-height: 600px;    
 }
 
 /*------------------------------Footer---------------------------*/
@@ -402,6 +398,13 @@ footer {
    .about-us-image1 {
        text-align: center;
    }
+   .about h2 {
+    text-align: center; 
+    }
+    .quote-header h2 {
+    text-align: center;
+    font-size: 22px;  
+    }
    .quotes-image img {  
        padding: 30px;
         max-height: 400px;
@@ -425,19 +428,19 @@ footer {
         text-align: center;
         padding-bottom: 20px;
     }
-    .menu-card {
-       max-height: 300px;
-       max-width: 350px;
+    .menu-card img {
+       max-height: 500px;
+       max-width: 450px;
     }
-    .menu-card {
+    .menu {
         text-align: center;
-        display: inline-block;
-        margin: 0 auto;   
-    }
+    } 
 } 
 
 @media (max-width: 767.98px) {
-
+   .enquiry-form input, textarea {
+        width: 500px;    
+}  
 }
 
 @media (max-width: 575.98px) {
@@ -456,26 +459,53 @@ footer {
     }
     .about-us-image1 img {  
         padding: 40px;
-        max-height: 375px;
-        max-width: 475px;
-}
-.quotes-image img {  
+        max-height: 300px;
+        max-width: 350px;
+    }
+    .quotes-image img {  
         padding: 40px;
-        max-height: 375px;
-        max-width: 475px;
+        max-height: 300px;
+        max-width: 350px;
     }
     .quote-header {
         padding-bottom: 0px;
-}
-.rooms-text {
-    padding-left: 40px;
-    padding-right: 40px; 
     }
-.bedroom {
+    .rooms-text {
+        padding-left: 40px;
+        padding-right: 40px; 
+        }
+    .bedroom {
         padding: 40px;
-        max-height: 375px;
-        max-width: 475px;
+        max-height: 300px;
+        max-width: 350px;
     }
+    .about-food {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .food-image img {
+        max-height: 300px;
+        max-width: 350px; 
+    }
+    .food-image {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menu-card img {
+       max-height: 250px;
+       max-width: 300px;
+    }
+    .enquire-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .enquiry-form input, textarea {
+        width: 325px;   
+    }  
+    .slideshow {
+        max-height: 300px;
+        max-width:  350px;           
+}
 }
 
 
