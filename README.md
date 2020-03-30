@@ -40,6 +40,8 @@ I have used Google fonts to create the right style in the website: https://fonts
 
 I have also used Font Awesome to add icons into my content: https://fontawesome.com/
 
+I copied the code for the burger menu from the website here: https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/
+
 ### Testing
  
 
