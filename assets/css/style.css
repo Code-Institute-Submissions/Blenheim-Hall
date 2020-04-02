@@ -33,8 +33,9 @@ body {
     text-decoration: none;
 }
 
-.navbar a {
-    text-decoration: none;
+.dropdown i {
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 
