@@ -16,28 +16,17 @@ body {
     display: flex;
 }
 
-
-#heading {
-    float: left;    
-    color: #282930;
+.navbar-brand {    
     letter-spacing: 8px;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold; 
-    text-transform: uppercase;
-    text-decoration: none;
-    text-shadow: 2px 2px 0px #ccc;  
-    padding-left: 5px;
+    text-transform: uppercase;    
+    text-shadow: 1px 1px 0px #ccc;      
 }
 
-.header-container{
-    text-decoration: none;
+.bg-light {
+    background-color: white!important;
 }
-
-.dropdown i {
-    padding-top: 10px;
-    font-size: 20px;
-}
-
 
 /*------------------------------About us section---------------------------*/
 
@@ -284,7 +273,7 @@ button {
 }
 
 button:hover {
-    border: 2px solid #282930;
+    font-weight: bold;
 }
 
 /*------------------------------Gallery---------------------------*/
@@ -336,23 +325,27 @@ footer {
 .winner i {
     margin-top: 30px;
     margin-left: 30px;
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .winner-text {
     padding-top: 10px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .winner h5 {
-    margin-left: 30px;    
+    margin-left: 24px;       
+}
+
+.winner-award {
+    font-size: 16px; 
 }
 
 .footer-links li a i {
     color: #eed3b7;
-    padding-right: 40px;
+    padding-right: 18px;
     padding-top: 30px;
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .copyright p {
@@ -438,12 +431,6 @@ footer {
 }
 
 @media (max-width: 575.98px) {
-    #heading {
-        padding-left: 40px;
-    }
-    .navbar {
-        padding-left: 35px;
-    }
     .about-container {
         padding-left: 40px;
         padding-right: 40px;
@@ -499,9 +486,25 @@ footer {
     .slideshow {
         max-height: 300px;
         max-width:  350px;           
-}
+    }
 }
 
+@media (max-width: 429.98px) {
+   .about-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about-us-image1 img {  
+        padding: 20px;
+        max-height: 200px;
+        max-width: 250px;
+    }
+    .quotes-image img {  
+        padding: 20px;
+        max-height: 200px;
+        max-width: 250px;
+    } 
+}
 
 
 
