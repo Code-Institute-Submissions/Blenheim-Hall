@@ -386,10 +386,10 @@ footer {
        text-align: center;
    }
    .about h2 {
-    text-align: center; 
+        text-align: center; 
     }
     .quote-header h2 {
-    text-align: center;
+        text-align: center;
     font-size: 22px;  
     }
    .quotes-image img {  
@@ -427,10 +427,16 @@ footer {
 @media (max-width: 767.98px) {
    .enquiry-form input, textarea {
         width: 500px;    
-}  
+    }  
+    .footer-links {
+        padding-left: 30px;
+    }
 }
 
 @media (max-width: 575.98px) {
+    #h-image, #h-image-rooms, #h-image-food, #h-image-enquire, #gallery-image {
+    height: 400px;
+    }
     .about-container {
         padding-left: 40px;
         padding-right: 40px;
@@ -454,7 +460,7 @@ footer {
     .rooms-text {
         padding-left: 40px;
         padding-right: 40px; 
-        }
+    }
     .bedroom {
         padding: 40px;
         max-height: 300px;
@@ -491,8 +497,8 @@ footer {
 
 @media (max-width: 429.98px) {
    .about-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .about-us-image1 img {  
         padding: 20px;
@@ -504,6 +510,29 @@ footer {
         max-height: 200px;
         max-width: 250px;
     } 
+}
+
+@media (max-width: 392.98px) {
+    .bedroom {
+        padding: 20px;
+        max-height: 200px;
+        max-width: 250px;
+    }    
+    .enquire-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .enquiry-form input, textarea {
+        width: 250px;   
+    } 
+    .food-image img {
+        max-height: 250px;
+        max-width: 300px; 
+    }
+    .menu-card img {
+       max-height: 200px;
+       max-width: 250px;
+    }
 }
 
 

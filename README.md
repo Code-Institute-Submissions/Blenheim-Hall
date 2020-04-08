@@ -2,7 +2,7 @@
  
 Welcome to my first project, the link to the website is here:
  
-https://8000-e0fcf3f5-85a9-4ff3-bde1-b42dac429752.ws-eu01.gitpod.io/index.html
+https://kimtroop89.github.io/myfirstproject/
  
 I've decided to build a website around a wedding venue as I think it's a fun way to showcase my newly acquired skills. I’ve tried to build the website so that it looks as aesthetically pleasing as possible since this is probably the biggest factor for someone searching for a wedding venue. If the style of the venue is demonstrated through the website, it gives the user an image in their head of what their wedding could look like here.
  
