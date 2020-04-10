@@ -6,7 +6,6 @@ body {
 
 /*------------------------------Header---------------------------*/
 
-
 #h-image {
     display: block;
     background: url("../../images/index-header.jpg") no-repeat center;
@@ -31,9 +30,9 @@ body {
 /*------------------------------About us section---------------------------*/
 
 .about-section {
- background-color: #eed3b7;
- color: #282930;
- }
+    background-color: #eed3b7;
+    color: #282930;
+}
 
 .about {
     text-align: justify;
@@ -53,7 +52,6 @@ body {
 }
 
 .about-us-image1 {  
-    background: url("/images/kissing.jpg") no-repeat center;
     padding: 40px;
     max-height: 400px;
     max-width: 500px; 
@@ -69,7 +67,7 @@ body {
     padding-bottom: 20px;
 }
 
-.quotes-image img{
+.quotes-image img {
     max-width: 300px;
     max-height: 250px;
 }
@@ -140,7 +138,6 @@ body {
     padding-bottom: 10px;
 }
 
-
 /*------------------------------Food Page---------------------------*/
 
 #h-image-food {
@@ -189,8 +186,7 @@ body {
 
 .menu-card img {
     max-height: 200px;
-    max-width: 250px;
-    
+    max-width: 250px;    
 }
 
 .menu-card {
@@ -209,6 +205,7 @@ body {
     padding-top: 10px;
     padding-bottom: 50px;
 }
+
 /*------------------------------Enquiry---------------------------*/
 
 #h-image-enquire {
@@ -258,15 +255,13 @@ body {
 
 .enquiry-form {
     padding-top: 50px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .enquiry-form input, textarea {
     width: 600px;
     margin-bottom: 10px;
 }
-
 
 button {
     margin-top: 20px;
@@ -376,36 +371,36 @@ footer {
 }
 
  @media (max-width: 991.98px) {
-     #heading {
+    #heading {
          text-align: center;
-     }
-   .about-us-image1 img {  
+    }
+    .about-us-image1 img {  
         max-height: 400px;
         max-width: 500px;
     }
-   .about-us-image1 {
+    .about-us-image1 {
        text-align: center;
-   }
-   .about h2 {
+    }
+    .about h2 {
         text-align: center; 
     }
     .quote-header h2 {
         text-align: center;
-    font-size: 22px;  
+        font-size: 22px;  
     }
-   .quotes-image img {  
-       padding: 30px;
+    .quotes-image img {  
+        padding: 30px;
         max-height: 400px;
         max-width: 500px;
     }
-   .quotes-image {
-       text-align: center;
-       padding-bottom: 30px;
-   }
-   .quotes-text{
-       text-align: center;
-   } 
-   .footer-links li a i {
+    .quotes-image {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .quotes-text{
+        text-align: center;
+    } 
+    .footer-links li a i {
         padding-right: 0px;
     } 
     .rooms-text {
@@ -417,8 +412,8 @@ footer {
         padding-bottom: 20px;
     }
     .menu-card img {
-       max-height: 500px;
-       max-width: 450px;
+        max-height: 500px;
+        max-width: 450px;
     }
     .menu {
         text-align: center;
@@ -426,7 +421,7 @@ footer {
 } 
 
 @media (max-width: 767.98px) {
-   .enquiry-form input, textarea {
+    .enquiry-form input, textarea {
         width: 500px;    
     }  
     .footer-links {
@@ -436,7 +431,7 @@ footer {
 
 @media (max-width: 575.98px) {
     #h-image, #h-image-rooms, #h-image-food, #h-image-enquire, #gallery-image {
-    height: 400px;
+        height: 400px;
     }
     .about-container {
         padding-left: 40px;
@@ -480,8 +475,8 @@ footer {
         padding-bottom: 20px;
     }
     .menu-card img {
-       max-height: 250px;
-       max-width: 300px;
+        max-height: 250px;
+        max-width: 300px;
     }
     .enquire-container {
         padding-left: 40px;
@@ -497,7 +492,7 @@ footer {
 }
 
 @media (max-width: 429.98px) {
-   .about-container {
+    .about-container {
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -531,8 +526,8 @@ footer {
         max-width: 300px; 
     }
     .menu-card img {
-       max-height: 200px;
-       max-width: 250px;
+        max-height: 200px;
+        max-width: 250px;
     }
 }
 
