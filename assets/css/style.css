@@ -52,7 +52,8 @@ body {
     font-size: 16px;
 }
 
-.about-us-image1 img {     
+.about-us-image1 {  
+    background: url("/images/kissing.jpg") no-repeat center;
     padding: 40px;
     max-height: 400px;
     max-width: 500px; 
