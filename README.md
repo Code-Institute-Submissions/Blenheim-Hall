@@ -80,12 +80,12 @@ Image carousel:
 - Checked that the control buttons worked to skip to a different image, these also did work
 - Checked that all 4 images were included in the carousel correctly.
  
-####Deployment
+#### Deployment
  
 To deploy my project to GitHub Pages I created a master branch.
  
  
-#####Credits
+###### Credits
  
 I used several bits of code from Bootstrap, including:
 Navbar
