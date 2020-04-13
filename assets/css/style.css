@@ -51,10 +51,10 @@ body {
     font-size: 16px;
 }
 
-.about-us-image1 {  
-    padding: 40px;
+.about-us-image1 img {  
+    padding: 30px;
     max-height: 400px;
-    max-width: 500px; 
+    max-width: 525px;        
 }
 
 .container-quotes {
